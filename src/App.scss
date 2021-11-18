@@ -1,0 +1,10 @@
+@import '~antd/dist/antd.css';
+@import '~react-mosaic-component/react-mosaic-component.css';
+@import "easymde/dist/easymde.min.css";
+.App {
+  height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}

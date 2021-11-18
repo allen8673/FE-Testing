@@ -1,0 +1,29 @@
+#top-bar {
+    // overflow: hidden;
+    height: 50px;
+    width: 100%;
+    // background: #f8f8fb;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    // border-bottom: 1px solid #E4E3E6;
+
+
+    #bar-fn-content {
+        overflow: hidden;
+        display: flex;
+        flex: 0 0 auto;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10px;
+
+
+        #favorite-btn {
+        padding: 3px 7px;
+            &:hover {
+                background-color: #efefefef;
+                color: #ffaf10;
+            }
+        }
+    }
+}

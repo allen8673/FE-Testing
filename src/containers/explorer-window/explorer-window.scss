@@ -1,0 +1,25 @@
+#explorer-window{
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .notion-item{
+        // background-color: aquamarine;
+        display: flex;
+        border-style: none;
+        width: 100%;
+        border-bottom: 1px solid rgba(190, 190, 188, 0.945);
+        border-left: 3px solid transparent;
+        padding: 10px 10px;
+        overflow: hidden;
+        flex: 1 1;
+    }
+
+    .notion-item.active{
+        user-select: none;
+        background: rgb(244, 247, 251);
+        color:#454545;
+        border-left-color: rgb(0, 143, 255);
+    }
+
+}
